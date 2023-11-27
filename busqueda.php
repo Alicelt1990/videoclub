@@ -19,18 +19,18 @@
       include_once 'film.php';
 
 	  /* Creación de 5 películas de ejemplo */
-      $pelicula1= new Pelicula('Tiburón', 1975, 'Steven Spielberg', 'NO', 4, '');
-      $pelicula2= new Pelicula('Tiburón 2', 1978, 'Jeannot Szwarc', 'SI', 5, '26-04-2016');
-      $pelicula3= new Pelicula('Batman Begins', 2005, 'Christopher Nolan', 'NO', 6, '');
-	  $pelicula4= new Pelicula('El caballero Oscuro', 2008, 'Christopher Nolan', 'SI', 10, '22-04-2016');
-	  $pelicula5= new Pelicula('El caballero Oscuro:La leyenda Renace', 2012, 'Christopher Nolan', 'SI', 8, '24-04-2016');
+      	$pelicula1= new Pelicula('Tiburón', 1975, 'Steven Spielberg', 'NO', 4, '');
+      	$pelicula2= new Pelicula('Tiburón 2', 1978, 'Jeannot Szwarc', 'SI', 5, '26-04-2016');
+      	$pelicula3= new Pelicula('Batman Begins', 2005, 'Christopher Nolan', 'NO', 6, '');
+	$pelicula4= new Pelicula('El caballero Oscuro', 2008, 'Christopher Nolan', 'SI', 10, '22-04-2016');
+	$pelicula5= new Pelicula('El caballero Oscuro:La leyenda Renace', 2012, 'Christopher Nolan', 'SI', 8, '24-04-2016');
       
 	  /* Almacenamiento de las películas en un array */
-	  $peliculas[] = $pelicula1;
-      $peliculas[] = $pelicula2;
-      $peliculas[] = $pelicula3;
-	  $peliculas[] = $pelicula4;
-	  $peliculas[] = $pelicula5;
+	$peliculas[] = $pelicula1;
+      	$peliculas[] = $pelicula2;
+      	$peliculas[] = $pelicula3;
+	$peliculas[] = $pelicula4;
+	$peliculas[] = $pelicula5;
       
       $nombre = isset($_POST['nombre']) ? $_POST['nombre'] : null;
       $enc = false;
